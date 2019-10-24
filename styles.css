@@ -257,6 +257,14 @@ background-color: #F9F9F9;
 
 .content2{
     grid-area: content2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+align-items: center;
 }
 
 .content3{
@@ -266,8 +274,7 @@ background-color: #F9F9F9;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-margin-top: 0px;
-padding-top: 0px;
+
 
 align-items: center;
 }
