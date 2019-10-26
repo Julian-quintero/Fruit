@@ -50,7 +50,7 @@
 
             <div class="gradient-video"></div>
 
-            <video autoplay loop muted id="videoBG">
+            <video autoplay loop muted id="videoBG" poster="./assets/2316242.jpg" >
                 <source src="./assets/coverr-purple-grapes-1570032565444.mp4" type="video/mp4">
             </video>
 
@@ -152,12 +152,15 @@
                             </div>
                         </div>
 
+                        
+                   
 
                     </div>
 
                     <button role="button" aria-label="Previous" class="glider-prev">«</button>
                     <button role="button" aria-label="Next" class="glider-next">»</button>
                     <div role="tablist" class="dots"></div>
+
                 </div>
 
             </div>
@@ -296,15 +299,14 @@
     <script src="./app.js"></script>
     <script>
         new Glider(document.querySelector('.glider'), {
+            slidesToShow: 1,
             slidesToScroll: 1,
-            dots: '.dots',
-            draggable: true,
-            rewind: true,
-            duration: 1,
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            },
+  scrollLock: true,
+  dots: '#resp-dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  },
   responsive: [
     {
       // screens greater than >= 775px
