@@ -241,6 +241,7 @@ font-family: 'Montserrat', sans-serif;
 	text-decoration:none;
     text-shadow:0px 1px 0px #b23e35;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #trackContent{
@@ -329,7 +330,7 @@ font-family: 'Montserrat', sans-serif;
 #apple{
  width: 8vw;
  height: 8vh;
-
+margin-top: 20px;
 }
 
 .content2{
@@ -382,6 +383,106 @@ align-items: center;
 
 
 align-items: center;
+}
+
+@media only screen and (max-device-width:768px){
+
+    .text-video{
+        
+         font-size: 2.5rem;
+         
+     }
+
+     .content1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+
+    
+    }
+
+    .content2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+
+    
+    }
+
+    .content3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+
+    
+    }
+
+    .content4{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+
+    
+    }
+
+    .trackerText{
+
+        width: 100%;
+        font-size: 3vw;
+
+    width: 50%;
+align-items: center;
+align-content: space-around;
+font-family: 'Montserrat', sans-serif;
+
+    }
+
+    #cuadros{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    #tomato{
+
+        display: none;
+    }
+
+    #trackTitle{
+
+        font-size: 2rem;
+       
+    }
+    
+   
+    
+    #trackContent{
+    
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
 }
 
 
