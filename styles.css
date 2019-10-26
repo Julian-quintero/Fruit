@@ -189,6 +189,21 @@ align-items: center;
     width: 50%;
 align-items: flex-start;
 align-content: space-around;
+font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.trackerText-right{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+align-items: center;
+align-content: space-around;
+font-family: 'Montserrat', sans-serif;
+
 
 
 }
@@ -197,6 +212,7 @@ align-content: space-around;
 
     font-size: 3vw;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #trackButton{
@@ -249,6 +265,54 @@ align-content: space-around;
 background-color: #F9F9F9;
 }
 
+.slider1{
+
+
+    width: 95%;
+    height: 100%;
+    
+}
+
+
+.card{
+
+    
+
+  display: flex;
+  flex-direction: column;
+
+ margin-left: 20px;
+ margin-bottom: 10px;
+/* Rectangle 3 */
+
+align-content: center;
+align-items: center;
+
+/* Rectangle 3 */
+
+
+/* Rectangle 3 */
+
+
+
+background: #FFFFFF;
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+
+
+
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.card-title{
+
+    font-size: 1vw;
+    color:gray;
+
+}
+
+
 #apple{
  width: 8vw;
  height: 8vh;
@@ -262,6 +326,7 @@ background-color: #F9F9F9;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
 
 
 align-items: center;
@@ -281,7 +346,17 @@ align-items: center;
 
 .content4{
     grid-area: content4;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+
+align-items: center;
 }
+
 
 
 
