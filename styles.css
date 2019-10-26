@@ -17,19 +17,31 @@
 .container{
  display: grid;
  grid-template-columns: 1fr 1fr;
- grid-template-rows: repeat(10,auto);
+ grid-template-rows: repeat(11,auto);
  grid-template-areas:
  "header header"
  "video video"
- "tomato tomato"
+  "tomato tomato"
  "content1 content1"
  "slider slider"
  "content2 content2"
  "content3 content3"
  "content4 content4"
  "content5 content5"
+ "title title"
  "footer footer";
  grid-row-gap: 0px;
+ }
+
+ .title{
+
+    grid-area: title;
+    width: 100%;
+ }
+
+ .title img{
+
+    width: 100%;
  }
 
  #logo{
@@ -368,8 +380,13 @@ align-items: center;
     align-content: center;
 
 
+
 align-items: center;
 }
+
+
+/*card 2*/
+
 
 
 
