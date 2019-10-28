@@ -50,7 +50,7 @@
 
             <div class="gradient-video"></div>
 
-            <video autoplay loop muted id="videoBG" poster="./assets/2316242.jpg" >
+            <video autoplay loop muted id="videoBG" poster="./assets/2316242.jpg">
                 <source src="./assets/coverr-purple-grapes-1570032565444.mp4" type="video/mp4">
             </video>
 
@@ -58,7 +58,7 @@
 
         </div>
 
-        
+
 
 
 
@@ -76,8 +76,8 @@
 
             <div class="trackerText">
                 <img id="heart" src="./assets/like.svg" alt="" srcset="">
-                <div class="trackTitle">Rastreador de salud</div>
-                <div id="trackContent">Rastrea lo que comes y tus actividades <br> para ver tu progreso y alcanzar tus
+                <div class="trackTitle-right">Rastreador de salud</div>
+                <div class="trackContent-right">Rastrea lo que comes y tus actividades <br> para ver tu progreso y alcanzar tus
                     metas</div>
                 <button id="trackButton">Empieza a rastrear</button>
             </div>
@@ -91,7 +91,7 @@
         <div class="sliderMain">
 
             <img id="apple" src="./assets/apple.svg" alt="" srcset="">
-            <div class="trackTitle">Productos recientes</div>
+            <div class="trackTitle-left">Productos recientes</div>
 
             <div class="slider1">
 
@@ -152,8 +152,8 @@
                             </div>
                         </div>
 
-                        
-                   
+
+
 
                     </div>
 
@@ -181,8 +181,8 @@
 
             <div class="trackerText-right">
                 <img id="heart" src="./assets/checklist.svg" alt="" srcset="">
-                <div class="trackTitle">Articulos</div>
-                <div id="trackContent">Lee los mejores articulos</div>
+                <div class="trackTitle-left">Articulos</div>
+                <div class="trackContent-left">Lee los mejores articulos</div>
                 <button id="trackButton">Ver articulos</button>
             </div>
 
@@ -212,8 +212,8 @@
 
             <div class="trackerText">
                 <img id="heart" src="./assets/dough.svg" alt="" srcset="">
-                <div class="trackTitle">Recipientes moda</div>
-                <div id="trackContent">Mira los ultimos recipientes de los miembros nuevos de la comunidad</div>
+                <div class="trackTitle-right">Recipientes moda</div>
+                <div class="trackContent-right" >Mira los ultimos recipientes de los miembros nuevos de la comunidad</div>
                 <button id="trackButton">Ver recipientes</button>
             </div>
 
@@ -230,7 +230,7 @@
 
                 <img src="./assets/testimony.jpg" alt="" srcset="">
 
-                <div class="card-content">
+                <div class="card-content-testimony">
                     Me encanta la aplicacion es todo lo que necesitaba para una vida
                     balanceada
                 </div>
@@ -264,7 +264,7 @@
 
     </div>
     <div class="title">
-            <img src="./assets/add.jpg" alt="" srcset="">
+        <img src="./assets/add.jpg" alt="" srcset="">
 
 
 
@@ -273,7 +273,7 @@
     </div>
 
     <div class="content5">
-            <img src="./assets/orange.svg" alt="" srcset="">
+        <img src="./assets/orange.svg" alt="" srcset="">
 
 
 
@@ -303,34 +303,34 @@
         new Glider(document.querySelector('.glider'), {
             slidesToShow: 1,
             slidesToScroll: 1,
-  scrollLock: true,
-  dots: '#resp-dots',
-  arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
-  },
-  responsive: [
-    {
-      // screens greater than >= 775px
-      breakpoint: 775,
-      settings: {
-        // Set to `auto` and provide item width to adjust to viewport
-        slidesToShow: 'auto',
-        slidesToScroll: 'auto',
-        itemWidth: 150,
-        duration: 0.25
-      }
-    },{
-      // screens greater than >= 1024px
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        itemWidth: 150,
-        duration: 0.25
-      }
-    }
-  ]
+            scrollLock: true,
+            dots: '#resp-dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            },
+            responsive: [
+                {
+                    // screens greater than >= 775px
+                    breakpoint: 775,
+                    settings: {
+                        // Set to `auto` and provide item width to adjust to viewport
+                        slidesToShow: 'auto',
+                        slidesToScroll: 'auto',
+                        itemWidth: 150,
+                        duration: 0.25
+                    }
+                }, {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        itemWidth: 150,
+                        duration: 0.25
+                    }
+                }
+            ]
         });
     </script>
 

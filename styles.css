@@ -118,7 +118,7 @@ width: 100%;
     z-index: 2;
     top: 20%;
     left: 10%;
-    font-size: 5vw;
+    font-size: 0vw;
     font-family: Source Sans Pro, sans-serif;
 }
 
@@ -200,13 +200,24 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-.trackTitle{
-
+.trackTitle-right{
+    opacity: 0;
     font-size: 3vw;
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
+
+.trackTitle-left{
+    opacity: 0;
+    font-size: 3vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
 
 #trackButton{
 	background-color:#B84F31;
@@ -224,7 +235,15 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
 }
 
-#trackContent{
+.trackContent-right{
+    opacity: 0;
+    font-size: 1.5vw;
+    margin-top: 20px;
+animation:"";
+}
+
+.trackContent-left{
+    opacity: 0;
 
     font-size: 1.5vw;
     margin-top: 20px;
@@ -320,6 +339,14 @@ font-family: 'Montserrat', sans-serif;
 
     font-size: 1vw;
     color:gray;
+
+}
+
+.card-content-testimony{
+    opacity: 0;
+
+
+    font-family: 'Montserrat', sans-serif;
 
 }
 
