@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () =>{
             opacity:[0,1],
             duration:5000,
             translateY:[0,20],
-            "font-size":["3vw","3vw"]
 
            })
     
@@ -53,7 +52,6 @@ document.addEventListener("DOMContentLoaded", () =>{
             opacity:[0,1],
             duration:5000,
             translateY:[0,20],
-            "font-size":["3vw","3vw"]
 
            })
     
