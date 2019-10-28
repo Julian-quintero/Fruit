@@ -194,8 +194,29 @@ var way = new Waypoint({
                 easing: "easeOutExpo",
                 opacity:[0,1],
                 duration:5000,
-                "font-size":[0,"1.2vw"],
-                translateY:[100,0],
+                translateY:[100,0]
+
+
+               
+               
+               })
+        }      
+    },
+    offset: '100%'
+  })
+
+
+  var way = new Waypoint({
+    element: document.querySelector('.trackTitle-products'),
+    handler: function(direction) {
+        
+        if (direction=="down") {
+            anime({
+                targets: ".trackTitle-products",
+                easing: "easeOutExpo",
+                opacity:[0,1],
+                duration:5000,
+                translateY:[100,0]
 
 
                
