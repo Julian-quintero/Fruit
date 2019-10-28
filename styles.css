@@ -47,7 +47,6 @@
  #logo{
     height: 10vh;
     width: 10vw;
-    animation: girar infinite 10s linear;
 
  }
 
@@ -83,31 +82,11 @@
 
  }
 
- #menu-horizontal li a:before{
-    content: "";
-    text-decoration: none;
 
-    border-bottom: 0.2vw solid black;
-    position: absolute;
-    width: 6vw;
- bottom: 0;
- transition:  0.3s all;
-
- display: hidden;
- z-index: 1;
-
-  }
-
-  #menu-horizontal li a:hover:before{
-    display: inline;
-    left: 0;
- 
-    
-  }
 
 
 .header{
-    grid-area: header;
+grid-area: header;
 width: 100%;
  display: flex;
  flex-direction: row;
@@ -138,7 +117,7 @@ width: 100%;
    position: absolute;
     z-index: 2;
     top: 20%;
-    left: 20%;
+    left: 10%;
     font-size: 5vw;
     font-family: Source Sans Pro, sans-serif;
 }
@@ -221,11 +200,12 @@ font-family: 'Montserrat', sans-serif;
 
 }
 
-#trackTitle{
+.trackTitle{
 
     font-size: 3vw;
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 
 #trackButton{
@@ -248,6 +228,7 @@ font-family: 'Montserrat', sans-serif;
 
     font-size: 1.5vw;
     margin-top: 20px;
+animation:"";
 }
 
 .logo{
@@ -268,6 +249,22 @@ font-family: 'Montserrat', sans-serif;
 
 
 }
+
+.tracking-in-expand {
+}
+
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .sliderMain{
     grid-area: slider;
@@ -449,7 +446,6 @@ align-items: center;
         width: 100%;
         font-size: 3vw;
 
-    width: 50%;
 align-items: center;
 align-content: space-around;
 font-family: 'Montserrat', sans-serif;
