@@ -91,7 +91,6 @@ enabled:false;
             opacity:[0,1],
             duration:5000,
             translateY:[20,0],
-            "font-size":["1.5vw","1.5vw"]
 
            })
     
@@ -129,8 +128,7 @@ enabled:false;
             easing: "easeOutExpo",
             opacity:[0,1],
             duration:5000,
-            translateY:[20,0],
-            "font-size":["1.5vw","1.5vw"]
+            translateY:[20,0]
 
            })
     
@@ -154,6 +152,7 @@ enabled:false;
     }
     
     //animation 2
+
     
     var way = new Waypoint({
         element: document.querySelector('.text-video'),
@@ -162,10 +161,11 @@ enabled:false;
             if (direction=="down") {
                 anime({
                     targets: ".text-video",
-                    easing: "easeOutExpo",
+                    easing: "easeOutQuint",
                     opacity:[0,1],
                     duration:5000,
-                    "font-size":[0,"5vw"]
+                    translateX:[150,0],
+
     
                    
                    
