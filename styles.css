@@ -163,7 +163,13 @@ align-items: center;
 #cuadros{
     display: block;
     width: 40vw;
-    height: 50vh;
+    height: 60vh;
+}
+
+.cuadros2{
+    display: block;
+    width: 40vw;
+    height: 60vh;
 }
 
 #heart{
@@ -228,7 +234,8 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-#trackButton{
+.trackButton-par, .trackButton-impar{
+    opacity: 0;
 	background-color:#B84F31;
 	border-radius:4px;
 	border:1px solid #ffffff;
@@ -292,7 +299,7 @@ background-color: #F9F9F9;
 .slider1{
 
 
-    width: 95%;
+    width: 80%;
     height: 100%;
     
 }
@@ -480,6 +487,12 @@ font-family: 'Montserrat', sans-serif;
         height: 100%;
     }
 
+    .cuadros2{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
     #tomato{
 
         display: none;
@@ -506,13 +519,20 @@ font-family: 'Montserrat', sans-serif;
     .trackContent-left{
         text-align: center;    
 
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+
+    .trackButton-par, .trackButton-impar{
+
+        font-size: 1rem;
+
     }
 
 
     .trackContent-right{
 text-align: center;    
-        font-size: 1.5rem;
+        font-size: 1rem;
         width: 100%;
     }
 
@@ -533,6 +553,42 @@ text-align: center;
 
     
     }
+
+    
+.card{
+
+    
+
+  
+   margin-left: 0px;
+   margin-bottom: 10px;
+  /* Rectangle 3 */
+  
+ 
+  
+  /* Rectangle 3 */
+  
+  
+  /* Rectangle 3 */
+  
+  
+  
+  background: #FFFFFF;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  
+  
+  
+  font-family: 'Montserrat', sans-serif;
+  
+  
+  }
+
+  .testimonyImg{
+
+  display: block;
+   width: 100%;
+
+  }
 
 
 
