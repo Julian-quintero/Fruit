@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             },
 
-            offset: "95%"
+            offset: "100%"
         })
 
 
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             },
 
-            offset: "95%"
+            offset: "100%"
         })
 
 
@@ -267,6 +267,30 @@ var cuadros2 = new Waypoint({
     offset: '100%'
 })
 
+var cuadros5 = new Waypoint({
+    element: document.querySelector('#cuadros5'),
+    handler: function (direction) {
+
+        if (direction == "down") {
+            anime({
+                targets: "#cuadros5",
+                easing: "easeOutExpo",
+                opacity: [0, 1],
+                duration: 5000,
+                translateX:[-100, 0],
+
+
+
+
+
+            })
+            cuadros5.disable();
+
+        }
+    },
+    offset: '100%'
+})
+
 
         var con2 = new Waypoint({
             element: document.querySelector('.trackButton-par1'),
@@ -291,7 +315,7 @@ var cuadros2 = new Waypoint({
 
             },
 
-            offset: "95%"
+            offset: "100%"
         })
 
 
@@ -325,7 +349,7 @@ var cuadros2 = new Waypoint({
 
             },
 
-            offset: "95%"
+            offset: "100%"
         })
 
 
@@ -360,7 +384,7 @@ var cuadros2 = new Waypoint({
 
             },
 
-            offset: "95%"
+            offset: "100%"
         })
 
 
@@ -395,8 +419,12 @@ var cuadros2 = new Waypoint({
 
             },
 
-            offset: "95%"
+            offset: "100%"
         })
+
+
+        
+
 
 
 
