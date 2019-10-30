@@ -253,7 +253,8 @@ var cuadros2 = new Waypoint({
                 easing: "easeOutExpo",
                 opacity: [0, 1],
                 duration: 5000,
-                height:["0vh","60vh"]
+                translateX:[-100, 0],
+
 
 
 
@@ -267,19 +268,17 @@ var cuadros2 = new Waypoint({
 })
 
 
-var continuousElements = document.getElementsByClassName('trackButton-par');
-    for (var i = 0; i < continuousElements.length; i++) {
         var con2 = new Waypoint({
-            element: continuousElements[i],
+            element: document.querySelector('.trackButton-par1'),
             handler: function (direction) {
 
                 if (direction == "down") {
                     anime({
-                        targets: ".trackButton-par",
+                        targets: ".trackButton-par1",
                         easing: "easeOutExpo",
-                        opacity: [0, 1],
                         duration: 5000,
-                        translateX: [-100, 0]
+                        translateX: [-100, 0],
+                        opacity: [0, 1]
 
                     })
 
@@ -300,21 +299,20 @@ var continuousElements = document.getElementsByClassName('trackButton-par');
 
 
 
-    }
+    
 
-    var continuousElements = document.getElementsByClassName('trackButton-impar');
-    for (var i = 0; i < continuousElements.length; i++) {
-        var con2 = new Waypoint({
-            element: continuousElements[i],
+       var con3= new Waypoint({
+            element: document.querySelector('.trackButton-impar1'),
             handler: function (direction) {
 
                 if (direction == "down") {
                     anime({
-                        targets: ".trackButton-impar",
+                        targets: ".trackButton-par2",
                         easing: "easeOutExpo",
-                        opacity: [0, 1],
                         duration: 5000,
-                        translateX: [-100, 0]
+                        translateX: [-100, 0],
+                        opacity: [0, 1]
+
 
                     })
 
@@ -335,7 +333,77 @@ var continuousElements = document.getElementsByClassName('trackButton-par');
 
 
 
-    }
+    
+
+        var con4 = new Waypoint({
+            element: document.querySelector('.trackButton-par2'),
+            handler: function (direction) {
+
+                if (direction == "down") {
+                    anime({
+                        targets: ".trackButton-par2",
+                        easing: "easeOutExpo",
+                        opacity: [0, 1],
+                        duration: 5000,
+                        translateX: [-100, 0],
+                        opacity: [0, 1]
+
+
+                    })
+
+                    this.disable();
+
+
+                }
+
+
+
+            },
+
+            offset: "95%"
+        })
+
+
+
+
+
+
+    
+
+    
+        var con5 = new Waypoint({
+            element: document.querySelector('.trackButton-impar2'),
+            handler: function (direction) {
+
+                if (direction == "down") {
+                    anime({
+                        targets: ".trackButton-impar2",
+                        easing: "easeOutExpo",
+                        duration: 5000,
+                        translateX: [-100, 0],
+                        opacity: [0, 1]
+
+
+                    })
+
+                    this.disable();
+
+
+                }
+
+
+
+            },
+
+            offset: "95%"
+        })
+
+
+
+
+
+
+    
 
 
 

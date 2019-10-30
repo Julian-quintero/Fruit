@@ -234,7 +234,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 
-.trackButton-par, .trackButton-impar{
+.trackButton-par1, .trackButton-par2, .trackButton-impar1, .trackButton-impar2{
     opacity: 0;
 	background-color:#B84F31;
 	border-radius:4px;
