@@ -145,6 +145,19 @@ width: 100%;
     
 }
 
+#videoBG2{
+
+    display: none;
+
+    width: 100%;
+    height: 70vh;
+    object-fit: fill;
+    z-index: -1;
+    position: relative;
+    
+    
+}
+
 
 
 
@@ -169,6 +182,12 @@ align-items: center;
 
 
 #cuadros5{
+    display: block;
+    width: 40vw;
+    height: 60vh;
+}
+
+#cereal{
     display: block;
     width: 40vw;
     height: 60vh;
@@ -432,6 +451,18 @@ background-color: #F9F9F9;
 
 @media only screen and (max-device-width:768px){
 
+    #videoBG{
+
+        display: none;       
+        
+    }
+
+    #videoBG2{
+
+        display: inline;        
+        
+    }
+
     .text-video{
         
          font-size: 2.5rem;
@@ -518,6 +549,12 @@ font-family: 'Montserrat', sans-serif;
     }
 
     #cuadros5{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    #cereal{
         display: block;
         width: 100%;
         height: 100%;

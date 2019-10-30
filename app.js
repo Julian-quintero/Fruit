@@ -291,6 +291,30 @@ var cuadros5 = new Waypoint({
     offset: '100%'
 })
 
+var cereal = new Waypoint({
+    element: document.querySelector('#cereal'),
+    handler: function (direction) {
+
+        if (direction == "down") {
+            anime({
+                targets: "#cereal",
+                easing: "easeOutExpo",
+                opacity: [0, 1],
+                duration: 5000,
+                translateX:[-100, 0],
+
+
+
+
+
+            })
+            cuadros5.disable();
+
+        }
+    },
+    offset: '100%'
+})
+
 
         var con2 = new Waypoint({
             element: document.querySelector('.trackButton-par1'),
@@ -352,6 +376,35 @@ var cuadros5 = new Waypoint({
             offset: "100%"
         })
 
+
+        
+
+       var complete= new Waypoint({
+        element: document.querySelector('#complete'),
+        handler: function (direction) {
+
+            if (direction == "down") {
+                anime({
+                    targets: "#complete",
+                    easing: "easeOutExpo",
+                    duration: 5000,
+                    translateX: [-100, 0],
+                    opacity: [0, 1]
+
+
+                })
+
+                this.disable();
+
+
+            }
+
+
+
+        },
+
+        offset: "100%"
+    })
 
 
 
