@@ -319,7 +319,7 @@
             slidesToScroll: 1,
             scrollLock: true,
             dots: '#dots',
-            rewind:true,
+            draggable: true,
             arrows: {
                 prev: '.glider-prev',
                 next: '.glider-next'
@@ -333,7 +333,9 @@
                         slidesToShow: 'auto',
                         slidesToScroll: 'auto',
                         itemWidth: "0.5vw",
-                        duration: 0.25
+                        duration: 0.25,
+                        draggable: true,
+
                     }
                 }, {
                     // screens greater than >= 1024px
@@ -342,7 +344,9 @@
                         slidesToShow: 3,
                         slidesToScroll: 1,
                         itemWidth: 150,
-                        duration: 0.25
+                        duration: 0.25,
+                        draggable: true,
+
                     }
                 }
             ]
